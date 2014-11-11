@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({left:'400px'});
+  });
+});
+
+//$( "a" ).css( "color", "red" );
+
+//$.fn.bloonify = function() {
+//this.css( "color", "blue" );
+//};
+//$( "a" ).bloonify();
+</script> 
+</head>
+ 
+<body>
+<button>Start Animation</button>
+<button id="btn1">Add text</button>
+<p>Move the element!</p>
+<div style="background:#98bf21;height:200px;width:200px;position:absolute;">
+</div>
+
+</body>
+</html>
